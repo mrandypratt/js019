@@ -47,13 +47,9 @@ let flashcards = {
   arrow_function: 'let functionName = (a, b) => implicitReturnValue; or => { //multilinecode with return statement }',
   implicit_return: 'Arrow functions with one expression may implicitly return a value',
   first_class_function: 'ability to treat function as a variable.  Functions are objects so they can be passed as arguments to other functions and returned from other functions.',
-  side_effects: '',
-  array_properties: 'Length',
-  array_methods: '', //forEach Map Filter Find
-  object_to_array_conversion: '',
-  arrays_as_objects: '',
-  objects: '',
-  object_properties: '',
+  operator_precedence: 'Comparison => Equality => AND => OR',
+  tarnary_operator: 'conditional ? value if true : value if false',
+  objects: 'collection of key-value pairs',
+  object_properties: 'Another name for key or key-value pair in an object',
   mutability: 'Ability for a data type to be changed. Primitive types are immutable and can only be reassigned.  Objects and Arrays are mutable, even if declared as constants. Some methods will mutate the caller also, which can be determined by reading the documentation.',
-  string_properties: ''
 }
